@@ -17,9 +17,14 @@ style.css
 ## Steps
 Used the existing app.js code from the module and replaced handleClick finction with updateFilters where we are capturing all the 5 filters of Date, City, State, Country and Shape. Also setting filtereddata with the original tabledata.
   
-We ran if-else for each filter where in if the filter was answered then the filteredData is filtered based on the user value. Else it resets it to the last filteredData snapshot. This way if Date was not answered whereas City was selected, then the data will only be filtered on City and of there was any existing date filter that would be removed from the final data
+We run forEach loop with if for each filter where in if the filter was answered then the filteredData is filtered based on the user value. This way if Date was not answered whereas City was selected, then the data will only be filtered on City and of there was any existing date filter that would be removed from the final data
   
 The index.html file was updated to include 4 new filters on City, State, Country and Shape.
+  
+## Screenshot
+  
+Screenshot for a sample working filter on City = fresno
+![alt text](https://github.com/29bharat/UFOs/blob/master/static/images/Filtered%20Data%20Sample.PNG)
   
 ## New Bootstrap Functions Added:
   
